@@ -52,4 +52,26 @@ Lemos esse loop assim:
 
 Rode o programa e veja o resultado.
 
+
+## Problemas e soluções
+
+Este é um `loop desenrolado`.
+
+![](img/loops-problema-01.png)
+
+Note que as operações se repetem. A única diferença é o valor de `x` que muda a cada nova chamada da função `set_position()`
+
+
+### Solução
+
+A solução é transformar essa sequência de operações em um loop. Porém, usaremos uma variável no lugar dos valores de `x`, para podermos variar o valor de `x` a cada execução do loop.
+
+![](img/arcade-exemplo-com-for-01-solucao-01.png)
+
+Outra forma de variar o valor de `x` dentro do loop é usando o próprio valor do `índice` (variável `index`, no exemplo) para calcular o valor de `x`.
+
+![](img/loops-problema-solucao-01.png)
+
+Neste caso, como queremos que `x` varie de `10 em 10`, podemos multiplicar o valor de `x` por `10` a cada volta do loop quando formos usar `x`.
+
 ### [voltar](index.md)
